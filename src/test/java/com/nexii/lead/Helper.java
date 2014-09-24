@@ -34,10 +34,10 @@ public class Helper extends TestBase {
 		}
 		driver.get(config.getProperty("appURL"));	
 	}
-	public void login_CRM(){
+	public void login_CRM(String uname, String pwd){
 		//helper.openBrowser();
-		driver.findElement(By.id("username")).sendKeys(login.getProperty("uname"));
-		driver.findElement(By.id("password")).sendKeys(login.getProperty("pwd"));
+		driver.findElement(By.id("username")).sendKeys(uname);
+		driver.findElement(By.id("password")).sendKeys(pwd);
 		driver.findElement(By.cssSelector("p.login.button")).findElement(By.tagName("input")).submit();
 		
 	}
@@ -64,10 +64,10 @@ public class Helper extends TestBase {
 	  return false;
 	}
 		
-	public void  takeScreenshot(String filename){
+	public void  takeScreenshot(String filename, int i){
 		  File scrfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		  try {
-			FileUtils.copyFile(scrfile, new File(Basedir+"\\src\\screenshots\\"+filename+".jpg"));
+			FileUtils.copyFile(scrfile, new File(Basedir+"\\src\\Screenshots\\"+filename+":"+i+".jpg"));
 		} catch (IOException e) {
 		
 			e.printStackTrace();
@@ -80,9 +80,7 @@ public class Helper extends TestBase {
 				iterator.next().click();
 	   }
 	public void random_click(List<WebElement> list, int k){
-		   //List<WebElement> list = driver.findElements(By.id(locator));
-		   //random = new Random();
-		   for (int j = 0; j < k; j++){
+		   for(int j = 0; j < k; j++){
 			   int i = random.nextInt(list.size());
 			   list.get(i).click();
 		   }
