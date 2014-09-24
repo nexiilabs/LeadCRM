@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class Administrator extends Helper{
 	
 	
-	@Test  //Ajay
+	@Test
 	public void admin_test(){
 	helper.openBrowser();
 	helper.login_CRM(login.getProperty("admin_uname"),login.getProperty("admin_pwd"));

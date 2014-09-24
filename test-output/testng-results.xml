@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14275" started-at="2014-09-24T10:44:37Z" finished-at="2014-09-24T10:44:52Z">
+  <suite name="Default suite" duration-ms="15452" started-at="2014-09-24T11:16:49Z" finished-at="2014-09-24T11:17:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14275" started-at="2014-09-24T10:44:37Z" finished-at="2014-09-24T10:44:52Z">
-      <class name="com.nexii.lead.Administrator">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nexii.lead.Administrator@133650d]" name="BeforeSuite" is-config="true" duration-ms="13" started-at="2014-09-24T16:14:37Z" finished-at="2014-09-24T16:14:37Z">
+    <test name="Default test" duration-ms="15452" started-at="2014-09-24T11:16:49Z" finished-at="2014-09-24T11:17:04Z">
+      <class name="com.nexii.lead.Researcher">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nexii.lead.Researcher@1d45d18]" name="BeforeSuite" is-config="true" duration-ms="12" started-at="2014-09-24T16:46:49Z" finished-at="2014-09-24T16:46:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="admin_test()[pri:0, instance:com.nexii.lead.Administrator@133650d]" name="admin_test" duration-ms="14262" started-at="2014-09-24T16:14:37Z" finished-at="2014-09-24T16:14:52Z">
+        <test-method status="PASS" signature="rearcher_test()[pri:0, instance:com.nexii.lead.Researcher@1d45d18]" name="rearcher_test" duration-ms="15429" started-at="2014-09-24T16:46:49Z" finished-at="2014-09-24T16:47:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- admin_test -->
-      </class> <!-- com.nexii.lead.Administrator -->
+        </test-method> <!-- rearcher_test -->
+      </class> <!-- com.nexii.lead.Researcher -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
