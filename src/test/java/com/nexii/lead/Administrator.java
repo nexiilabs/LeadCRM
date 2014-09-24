@@ -11,10 +11,11 @@ public class Administrator extends Helper{
 	@Test  //Ajay
 	public void admin_test(){
 	helper.openBrowser();
-	helper.login_CRM();
+	helper.login_CRM(login.getProperty("admin_uname"),login.getProperty("admin_pwd"));
 	List<WebElement> admin_menu =driver.findElement(By.id("tree_menu")).findElement(By.tagName("ul")).findElements(By.tagName("li"));
+	System.out.println("size:"+admin_menu.size());
 	for (int i = 0; i < admin_menu.size(); i++) {
-		admin_menu.get(i).click();
+		System.out.println(i+":"+admin_menu.get(i).getText());
 	}
 	}
   
