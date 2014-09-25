@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14275" started-at="2014-09-24T10:44:37Z" finished-at="2014-09-24T10:44:52Z">
+  <suite name="Default suite" duration-ms="79511" started-at="2014-09-25T13:52:10Z" finished-at="2014-09-25T13:53:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14275" started-at="2014-09-24T10:44:37Z" finished-at="2014-09-24T10:44:52Z">
-      <class name="com.nexii.lead.Administrator">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nexii.lead.Administrator@133650d]" name="BeforeSuite" is-config="true" duration-ms="13" started-at="2014-09-24T16:14:37Z" finished-at="2014-09-24T16:14:37Z">
+    <test name="Default test" duration-ms="79511" started-at="2014-09-25T13:52:10Z" finished-at="2014-09-25T13:53:30Z">
+      <class name="com.nexii.lead.BDM">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nexii.lead.BDM@334bfe]" name="BeforeSuite" is-config="true" duration-ms="11" started-at="2014-09-25T19:22:10Z" finished-at="2014-09-25T19:22:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="admin_test()[pri:0, instance:com.nexii.lead.Administrator@133650d]" name="admin_test" duration-ms="14262" started-at="2014-09-24T16:14:37Z" finished-at="2014-09-24T16:14:52Z">
+        <test-method status="PASS" signature="BDM_test_login()[pri:0, instance:com.nexii.lead.BDM@334bfe]" name="BDM_test_login" is-config="true" duration-ms="14150" started-at="2014-09-25T19:22:10Z" finished-at="2014-09-25T19:22:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- admin_test -->
-      </class> <!-- com.nexii.lead.Administrator -->
+        </test-method> <!-- BDM_test_login -->
+        <test-method status="PASS" signature="aBDM_test_expand_close_menu()[pri:0, instance:com.nexii.lead.BDM@334bfe]" name="aBDM_test_expand_close_menu" duration-ms="30688" started-at="2014-09-25T19:22:24Z" finished-at="2014-09-25T19:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aBDM_test_expand_close_menu -->
+        <test-method status="PASS" signature="BDM_test_login()[pri:0, instance:com.nexii.lead.BDM@334bfe]" name="BDM_test_login" is-config="true" duration-ms="13729" started-at="2014-09-25T19:22:55Z" finished-at="2014-09-25T19:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BDM_test_login -->
+        <test-method status="PASS" signature="bBDM_assign_lead()[pri:0, instance:com.nexii.lead.BDM@334bfe]" name="bBDM_assign_lead" duration-ms="20929" started-at="2014-09-25T19:23:09Z" finished-at="2014-09-25T19:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bBDM_assign_lead -->
+      </class> <!-- com.nexii.lead.BDM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

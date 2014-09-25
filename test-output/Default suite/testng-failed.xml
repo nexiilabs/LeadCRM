@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.nexii.lead.Administrator">
+      <class name="com.nexii.lead.BDM">
         <methods>
           <include name="BeforeSuite"/>
-          <include name="admin_test"/>
+          <include name="bBDM_assign_lead"/>
+          <include name="BDM_test_login"/>
         </methods>
-      </class> <!-- com.nexii.lead.Administrator -->
+      </class> <!-- com.nexii.lead.BDM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
