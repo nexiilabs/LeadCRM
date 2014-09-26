@@ -96,17 +96,21 @@ public class Administrator extends Helper{
 			helper.random_click(user_role, 1);
 			driver.findElement(By.id("updatebutton")).submit();
 			helper.sleep(30);
+			System.out.println("get text: "+driver.findElement(By.id("result_msg_div")).findElement(By.tagName("label")).getText());
 			while(driver.findElement(By.id("result_msg_div")).findElement(By.tagName("label")).getText().toLowerCase().contains("please select manager")) {
+				System.out.println("debug4");
 				helper.random_click(user_mgr, 1);	
 				driver.findElement(By.id("updatebutton")).submit();
 				helper.sleep(5);
 			}
 			while(driver.findElement(By.id("result_msg_div")).findElement(By.tagName("label")).getText().toLowerCase().contains("please select role")) {
+				System.out.println("debug5");
 				helper.random_click(user_role, 1);
 				driver.findElement(By.id("updatebutton")).submit();
 				helper.sleep(5);
 			}
 			while(driver.findElement(By.id("result_msg_div")).findElement(By.tagName("label")).getText().toLowerCase().contains("please select service")) {
+				System.out.println("debug6");
 				List<WebElement> architect_service = driver.findElement(By.name("service")).findElements(By.tagName("option"));
 				helper.random_click(architect_service, 1);
 				driver.findElement(By.id("updatebutton")).submit();
@@ -114,6 +118,7 @@ public class Administrator extends Helper{
 			}
 		
 		helper.sleep(10);
+		System.out.println("success");
 		if(driver.findElement(By.id("result_msg_div")).findElement(By.tagName("label")).getText().toLowerCase().contains("successfully")){
 			System.out.println("user updated successfully");
 			driver.findElement(By.className("ui-button-text")).click();
