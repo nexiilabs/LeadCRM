@@ -1,82 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="0" total="2" passed="2">
-  <reporter-output>
-  </reporter-output>
-<<<<<<< HEAD
-  <suite name="Default suite" duration-ms="25646" started-at="2014-09-25T14:45:03Z" finished-at="2014-09-25T14:45:29Z">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="25646" started-at="2014-09-25T14:45:03Z" finished-at="2014-09-25T14:45:29Z">
-      <class name="com.nexii.lead.VPsales">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nexii.lead.VPsales@1a13f3d]" name="BeforeSuite" is-config="true" duration-ms="41" started-at="2014-09-25T20:15:03Z" finished-at="2014-09-25T20:15:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="vp_test()[pri:0, instance:com.nexii.lead.VPsales@1a13f3d]" name="vp_test" duration-ms="25611" started-at="2014-09-25T20:15:03Z" finished-at="2014-09-25T20:15:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vp_test -->
-      </class> <!-- com.nexii.lead.VPsales -->
-=======
-  <suite name="Default suite" duration-ms="79511" started-at="2014-09-25T13:52:10Z" finished-at="2014-09-25T13:53:30Z">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="79511" started-at="2014-09-25T13:52:10Z" finished-at="2014-09-25T13:53:30Z">
-      <class name="com.nexii.lead.BDM">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nexii.lead.BDM@334bfe]" name="BeforeSuite" is-config="true" duration-ms="11" started-at="2014-09-25T19:22:10Z" finished-at="2014-09-25T19:22:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="BDM_test_login()[pri:0, instance:com.nexii.lead.BDM@334bfe]" name="BDM_test_login" is-config="true" duration-ms="14150" started-at="2014-09-25T19:22:10Z" finished-at="2014-09-25T19:22:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BDM_test_login -->
-        <test-method status="PASS" signature="aBDM_test_expand_close_menu()[pri:0, instance:com.nexii.lead.BDM@334bfe]" name="aBDM_test_expand_close_menu" duration-ms="30688" started-at="2014-09-25T19:22:24Z" finished-at="2014-09-25T19:22:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aBDM_test_expand_close_menu -->
-        <test-method status="PASS" signature="BDM_test_login()[pri:0, instance:com.nexii.lead.BDM@334bfe]" name="BDM_test_login" is-config="true" duration-ms="13729" started-at="2014-09-25T19:22:55Z" finished-at="2014-09-25T19:23:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BDM_test_login -->
-        <test-method status="PASS" signature="bBDM_assign_lead()[pri:0, instance:com.nexii.lead.BDM@334bfe]" name="bBDM_assign_lead" duration-ms="20929" started-at="2014-09-25T19:23:09Z" finished-at="2014-09-25T19:23:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bBDM_assign_lead -->
-      </class> <!-- com.nexii.lead.BDM -->
-=======
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="112673" started-at="2014-09-25T14:31:16Z" finished-at="2014-09-25T14:33:09Z">
+  <suite name="Default suite" duration-ms="132823" started-at="2014-09-26T07:59:04Z" finished-at="2014-09-26T08:01:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="112673" started-at="2014-09-25T14:31:16Z" finished-at="2014-09-25T14:33:09Z">
+    <test name="Default test" duration-ms="132823" started-at="2014-09-26T07:59:04Z" finished-at="2014-09-26T08:01:17Z">
       <class name="com.nexii.lead.Administrator">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nexii.lead.Administrator@7196b2]" name="BeforeSuite" is-config="true" duration-ms="12" started-at="2014-09-25T20:01:16Z" finished-at="2014-09-25T20:01:16Z">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nexii.lead.Administrator@190efa8]" name="BeforeSuite" is-config="true" duration-ms="12" started-at="2014-09-26T13:29:04Z" finished-at="2014-09-26T13:29:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="FAIL" signature="admin_test()[pri:0, instance:com.nexii.lead.Administrator@7196b2]" name="admin_test" duration-ms="112643" started-at="2014-09-25T20:01:16Z" finished-at="2014-09-25T20:03:09Z">
+        <test-method status="FAIL" signature="admin_test()[pri:0, instance:com.nexii.lead.Administrator@190efa8]" name="admin_test" duration-ms="132796" started-at="2014-09-26T13:29:04Z" finished-at="2014-09-26T13:31:17Z">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[Element is no longer attached to the DOM
-Command duration or timeout: 25 milliseconds
+Command duration or timeout: 29 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
 System info: host: 'AJAYK', ip: '172.16.10.68', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
-Session ID: 194b84d9-752c-4c85-b55f-99144cea5176
+Session ID: dd3b7966-6417-42d0-882a-d163882d2f69
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.2}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: Element is no longer attached to the DOM
-Command duration or timeout: 25 milliseconds
+Command duration or timeout: 29 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
 System info: host: 'AJAYK', ip: '172.16.10.68', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
-Session ID: 194b84d9-752c-4c85-b55f-99144cea5176
+Session ID: dd3b7966-6417-42d0-882a-d163882d2f69
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.2}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -120,11 +73,11 @@ Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
 System info: host: 'AJAYK', ip: '172.16.10.68', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
 Driver info: driver.version: unknown
 	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8325:24)
-	at <anonymous class>.Utils.getElementAt(file:///C:/Users/ingenit/AppData/Local/Temp/anonymous8290946588358372730webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:7922:3)
-	at <anonymous class>.WebElement.getElementText(file:///C:/Users/ingenit/AppData/Local/Temp/anonymous8290946588358372730webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11042:7)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ingenit/AppData/Local/Temp/anonymous8290946588358372730webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11612:16)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ingenit/AppData/Local/Temp/anonymous8290946588358372730webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11617:7)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ingenit/AppData/Local/Temp/anonymous8290946588358372730webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11559:5)
+	at <anonymous class>.Utils.getElementAt(file:///C:/Users/ingenit/AppData/Local/Temp/anonymous4208167569924792432webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:7922:3)
+	at <anonymous class>.WebElement.getElementText(file:///C:/Users/ingenit/AppData/Local/Temp/anonymous4208167569924792432webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11042:7)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ingenit/AppData/Local/Temp/anonymous4208167569924792432webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11612:16)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ingenit/AppData/Local/Temp/anonymous4208167569924792432webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11617:7)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ingenit/AppData/Local/Temp/anonymous4208167569924792432webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11559:5)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
@@ -132,8 +85,6 @@ Driver info: driver.version: unknown
           </reporter-output>
         </test-method> <!-- admin_test -->
       </class> <!-- com.nexii.lead.Administrator -->
->>>>>>> f543ff8742dbbd1a353e49ec858444385d8dddb4
->>>>>>> fb9700df0df447431502b8489e558be669bee6b5
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
