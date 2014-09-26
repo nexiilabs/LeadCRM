@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15452" started-at="2014-09-24T11:16:49Z" finished-at="2014-09-24T11:17:04Z">
+  <suite name="Default suite" duration-ms="35039" started-at="2014-09-26T10:09:08Z" finished-at="2014-09-26T10:09:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15452" started-at="2014-09-24T11:16:49Z" finished-at="2014-09-24T11:17:04Z">
-      <class name="com.nexii.lead.Researcher">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nexii.lead.Researcher@1d45d18]" name="BeforeSuite" is-config="true" duration-ms="12" started-at="2014-09-24T16:46:49Z" finished-at="2014-09-24T16:46:49Z">
+    <test name="Default test" duration-ms="35039" started-at="2014-09-26T10:09:08Z" finished-at="2014-09-26T10:09:43Z">
+      <class name="com.nexii.lead.BDE">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nexii.lead.BDE@283a0f10]" name="BeforeSuite" is-config="true" duration-ms="10" started-at="2014-09-26T15:39:08Z" finished-at="2014-09-26T15:39:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="rearcher_test()[pri:0, instance:com.nexii.lead.Researcher@1d45d18]" name="rearcher_test" duration-ms="15429" started-at="2014-09-24T16:46:49Z" finished-at="2014-09-24T16:47:04Z">
+        <test-method status="PASS" signature="bde_test()[pri:0, instance:com.nexii.lead.BDE@283a0f10]" name="bde_test" duration-ms="35019" started-at="2014-09-26T15:39:08Z" finished-at="2014-09-26T15:39:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- rearcher_test -->
-      </class> <!-- com.nexii.lead.Researcher -->
+        </test-method> <!-- bde_test -->
+      </class> <!-- com.nexii.lead.BDE -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
