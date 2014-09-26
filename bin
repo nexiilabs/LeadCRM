@@ -1,0 +1,25 @@
+tree 8662bbaa62e2fb9c79907fa66fe46ec63bb55ce5
+parent 273b0a584f89fee322883fd7e8ec0bfbecf62f69
+parent fb9700df0df447431502b8489e558be669bee6b5
+author Shiva <shiva.ch31@gmail.com> 1411657722 +0530
+committer Shiva <shiva.ch31@gmail.com> 1411657722 +0530
+
+Merge branch 'master' of https://github.com/nexiilabs/LeadCRM
+
+Conflicts:
+	.classpath
+	src/ConfigFiles/login.properties
+	src/test/java/com/nexii/lead/BDE.java
+	src/test/java/com/nexii/lead/BDM.java
+	src/test/java/com/nexii/lead/VPsales.java
+	target/test-classes/com/nexii/lead/BDM.class
+	target/test-classes/com/nexii/lead/VPsales.class
+	test-output/Default suite/Default test.html
+	test-output/Default suite/Default test.xml
+	test-output/emailable-report.html
+	test-output/index.html
+	test-output/old/Default suite/classes.html
+	test-output/old/Default suite/methods-alphabetical.html
+	test-output/old/Default suite/methods.html
+	test-output/old/Default suite/testng.xml.html
+	test-output/testng-results.xml
