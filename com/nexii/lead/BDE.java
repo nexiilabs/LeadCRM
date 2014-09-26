@@ -39,4 +39,8 @@ public class BDE extends Helper {
 	  }
 	  
   }
+@Test    
+public void bde_test1() {
+	  helper.openBrowser();
+}
 }
