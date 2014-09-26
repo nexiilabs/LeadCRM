@@ -1,30 +1,20 @@
 package com.nexii.lead;
 
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class BDM extends Helper{
   
-<<<<<<< HEAD
-  @Test   
-  public void BDM_test() {
-	  helper.openBrowser();
-	  //helper.login_CRM();
-	  //Pavan, continue the code here
-  }
-=======
 	@BeforeMethod
 	public void BDM_test_login()
 	{
 		 helper.openBrowser();
-		  helper.sleep(3);
-		  helper.login_CRM(login.getProperty("bdm_uname"), login.getProperty("bdm_pwd"));
+		 helper.sleep(3);
+		 helper.login_CRM(login.getProperty("bdm_uname"), login.getProperty("bdm_pwd"));
 	}
  
 	@Test   
@@ -91,6 +81,8 @@ public class BDM extends Helper{
 				System.out.println("Service table not available");
 			}
 		  }
+	
 	}
->>>>>>> fb9700df0df447431502b8489e558be669bee6b5
+	
+
 }
