@@ -39,7 +39,14 @@ public class Helper extends TestBase {
 		driver.findElement(By.id("password")).sendKeys(pwd);
 		driver.findElement(By.cssSelector("p.login.button")).findElement(By.tagName("input")).submit();
 		
-	}
+	
+	
+	List<WebElement> lis = driver.findElement(By.className("menu")).findElements(By.className("close"));
+	  helper.sleep(1);
+	  System.out.println(lis.size());
+	  
+	  lis.get(0).findElement(By.className("    symbol-close")).click();
+	  }
 	
 	public void sleep(int seconds){
 		try {

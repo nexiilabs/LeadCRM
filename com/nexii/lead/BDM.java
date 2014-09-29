@@ -84,10 +84,6 @@ public class BDM extends Helper{
 		  }
 	
 	}
-	List<WebElement> lis = driver.findElement(By.className("menu")).findElements(By.className("close"));
-	  helper.sleep(1);
-	  System.out.println(lis.size());
-	  
-	  lis.get(0).findElement(By.className("    symbol-close")).click();
+	
 
 }
