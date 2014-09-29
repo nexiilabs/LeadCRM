@@ -9,9 +9,6 @@ public class Researcher extends Helper{
 	  helper.login_CRM(login.getProperty("researcher_uname"),login.getProperty("researcher_pwd"));
 	  //Ajay, continue the code here
 	  List<WebElement> lis = driver.findElement(By.className("menu")).findElements(By.className("close"));
-	  helper.sleep(1);
-	  System.out.println(lis.size());
 	  
-	  lis.get(0).findElement(By.className("    symbol-close")).click();
   }
 }
