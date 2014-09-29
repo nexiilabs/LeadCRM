@@ -43,6 +43,9 @@ public class BDE extends Helper {
 public void bde_test1() {
 	  helper.openBrowser();
 	  driver.manage().window().maximize();
+	  //latest updated on 29th Sept
+	  driver.findElement(By.className("close").findElement(By.linkText("Research Phase ")).click();
+	  
 	  
 }
 }
