@@ -44,7 +44,12 @@ public void bde_test1() {
 	  helper.openBrowser();
 	  driver.manage().window().maximize();
 	  //latest updated on 29th Sept
-	  driver.findElement(By.className("close").findElement(By.linkText("Research Phase ")).click();
+	  List<WebElement> lis = driver.findElement(By.className("menu")).findElements(By.className("close"));
+	  helper.sleep(1);
+	  System.out.println(lis.size());
+	  
+	  lis.get(0).findElement(By.className("    symbol-close")).click();
+	  
 	  
 	  
 }

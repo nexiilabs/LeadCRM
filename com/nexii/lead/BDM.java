@@ -13,6 +13,7 @@ public class BDM extends Helper{
 	public void BDM_test_login()
 	{
 		 helper.openBrowser();
+		// driver.manage().window().maximize();
 		 helper.sleep(3);
 		 helper.login_CRM(login.getProperty("bdm_uname"), login.getProperty("bdm_pwd"));
 	}
@@ -83,6 +84,10 @@ public class BDM extends Helper{
 		  }
 	
 	}
-	
+	List<WebElement> lis = driver.findElement(By.className("menu")).findElements(By.className("close"));
+	  helper.sleep(1);
+	  System.out.println(lis.size());
+	  
+	  lis.get(0).findElement(By.className("    symbol-close")).click();
 
 }
